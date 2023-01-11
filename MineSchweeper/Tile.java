@@ -37,5 +37,8 @@ public class Tile {
         y = yIn;
     }
     
+    public void getDisplay(){}
     
+    public void uncover(){covering = false;}
+    public void   cover(){covering = true; }
 }
